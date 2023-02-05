@@ -1,0 +1,124 @@
+
+*{
+margin: 0;
+padding: 0;
+font-family: 'Poppins', sans-serif;
+}
+.container{
+    display: flex;
+    background: #1E1E1E;
+}
+.wrapper{
+    background: #b71919;
+    border-radius: 25px;
+    height: 99vh;
+    margin: 20px 10px;
+}
+.left{
+    width: 20%;
+    position: fixed;
+}
+h1{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    color: #FFFFFF;
+}
+p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+}
+.left .content .btn{
+    background: #111111;
+    border-radius: 30px;
+    border: none;
+    width: 100%;
+    padding: 17px 40px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: white;
+    margin-bottom: 24px;
+}
+.left .content .details{
+margin-bottom: 2px;
+text-align: center;
+}
+.left .content{
+    margin: 30px 20px;
+}
+.right{
+    width: 79%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 21%;
+  
+}
+.right .content{
+    display: flex;
+    flex-direction: column;
+    padding: 40px 36px;
+    gap: 20px;
+    
+}
+.right .content-container{
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+}
+
+.content-container .details a{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: white;
+}
+.content{
+    height: 50vh;
+}
+.movie-info{
+    height: 35vh;
+}
+.content-container .details p{
+    margin-bottom: 60px;
+}
+.right .movie-info{
+    display: flex;
+    flex-direction: column;
+    padding: 35px 50px;
+    gap: 18px;
+}
+table{
+    border: 1px solid grey;
+    border-radius: 30px;
+   width: 100%;
+   font-weight: 400;
+   font-size: 18px;
+   /* line-height: 27px; */
+   color: grey;
+   margin: 5px 4px;
+   /* line-height: 2; */
+}
+th,td{
+    border-right: 1px solid grey;
+    border-collapse: collapse;
+    line-height: 2;
+    padding: 5px 22px
+}
+th{
+    border-bottom: 1px solid grey;
+    border-collapse: collapse;
+    padding: 21px 15px;
+    text-align: left;
+}
+td:last-child,th:last-child{
+    border-right: none;
+    border-collapse: collapse;
+}
+h2{
+    color: white;
+    font-weight: 400;
+    font-size: 26px;
+}
